@@ -4,7 +4,7 @@ export default {
   root: resolve(__dirname, 'src'),
   resolve: {
     alias: {
-      '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+      '~bootstrap': resolve(__dirname, 'node_modules/bootstrap'),
     }
   },
   build: {
