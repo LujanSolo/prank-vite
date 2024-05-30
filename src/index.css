@@ -404,7 +404,7 @@ section {
 
 .stream-bg {
   float: left;
-  max-width: 50%;
+  max-width: 100% !important;
 }
 
 .streaming-icons-box {
@@ -570,6 +570,10 @@ footer .rating-bug {
   .stream-bg {
     max-width: 50% !important;
     float: left !important;
+  }
+
+  .test-row {
+    clear: both;
   }
 
   .streaming-icons-box {
