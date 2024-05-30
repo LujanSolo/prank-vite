@@ -397,23 +397,24 @@ section {
 
 /** STREAMING SECTION **/
 .streaming-section {
+  min-height: 100vh !important;
   background-color: #0a0909;
 }
 
 .stream-bg {
-  width: 90%;
-  max-width: 350px;
-  position: relative !important;
+  float: left;
+  max-width: 50%;
+  /* position: relative !important; */
   margin: 0 auto !important;
-  top: 50px;
 }
 
-.streaming-icons-box a {
-  max-width: 30%;
+.streaming-icons-box {
+  float: right;
+  max-width: 50%;
 }
 
 .streaming-icon {
-  width: 65%;
+  width: 100%;
   border: 3px solid rgb(218, 225, 232);
   border-radius: 33%;
 }
@@ -434,7 +435,7 @@ section {
   float: left;
   max-width: 40%;
   border: 1px solid white !important;
-  position: relative !important;
+  /* position: relative !important; */
   margin: 0 auto !important;
 }
 
