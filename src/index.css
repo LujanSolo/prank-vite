@@ -404,7 +404,7 @@ section {
 
 .stream-bg {
   float: left;
-  max-width: 100% !important;
+  max-width: 50% !important;
 }
 
 .streaming-icons-box {
@@ -565,15 +565,16 @@ footer .rating-bug {
 /** MEDIA QUERIES **/
 @media screen and (min-width: 564px) {
   .streaming-section {
-    display: block !important;
+    display: inline !important;
+    /* align-items: center !important; */
+    /* align-content: center !important; */
+    align-content: center !important;
+    height: max-content !important;
   }
   .stream-bg {
-    max-width: 50% !important;
+  
+    /* max-width: 50% !important; */
     float: left !important;
-  }
-
-  .test-row {
-    clear: both;
   }
 
   .streaming-icons-box {
