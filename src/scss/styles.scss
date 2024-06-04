@@ -103,7 +103,7 @@ section {
 }
 
 #social li {
-  list-style-type: none;
+  list-style-type: none !important;
   cursor: pointer;
 }
 
@@ -433,8 +433,7 @@ section {
 
 .streaming-h2,
 .synopsis-h2,
-.trailer-h2,
-.info-h2 {
+.trailer-h2 {
   font-weight: 900;
 }
 
@@ -464,10 +463,6 @@ section {
 }
 
 /** INFO SECTION **/
-.info-section {
-  background-color: #0a0909;
-}
-
 .info-link {
   color: #d5d5d5;
   font-weight: 500;
