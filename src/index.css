@@ -3,7 +3,7 @@
 }
 
 html {
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
   letter-spacing: 1px !important;
   background-color: #000 !important;
   /* font-size: 14px; */
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 main {

@@ -13,10 +13,10 @@
     rel="stylesheet" />
 </head>
 
-<body>
+<body class="container-fluid">
 
   <!--* NAVBAR -->
-  <nav class="container navbar navbar-dark d-flex justify-content-end">
+  <nav class="container-fluid navbar navbar-dark d-flex justify-content-end">
     <div class="row d-flex align-items-center">
       <div class="col dropdown share-dropdown">
         <a class="btndropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,19 +51,19 @@
         <div class="offcanvas-body nav-container d-flex flex-column flex-grow-1 min-vh-100 mt-5">
           <ul class="navbar-nav text-center p-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/#home">HOME</a>
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#trailer">TRAILER</a>
+              <a class="nav-link" href="#trailer">TRAILER</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#streaming">STREAMING</a>
+              <a class="nav-link" href="#streaming">STREAMING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#synopsis">SYNOPSIS</a>
+              <a class="nav-link" href="#synopsis">SYNOPSIS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#info">MORE INFORMATION</a>
+              <a class="nav-link" href="#info">MORE INFORMATION</a>
             </li>
             <li class="socials">
               <div class="hashtag pt-3">
@@ -100,34 +100,38 @@
   </nav>
 
   <!--* MAIN -->
-  <main>
+  <main class="container-fluid">
     <!--* HOME -->
-    <div id="home" class="container-fluid">
+    <section id="home" class="container">
       <div class="row">
-        <div class="col-4">
-          <img class="image-fluid" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -2vw;"
+        <div class="d-none d-md-block col-md-4 mt-1 ">
+          <img class="image-fluid" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -9vw;"
             src="./assets/images/bg.jpg" alt="The Prank - movie poster" />
         </div>
-        <div class="col-8 d-flex flex-column justify-content-evenly">
-          <div class="row mb-5">
-            <img class="image-fluid" style="background-size: contain; width: 100%;" src="./assets/images/names.png"
+        <div class="col-md-8 d-flex flex-column justify-content-between">
+          <!-- <div class="row"> -->
+            <img class="image-fluid" src="./assets/images/names.png"
               alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
+          <!-- </div> -->
+          <div class="d-md-none">
+            <img class="image-fluid" style="width: 100vw; margin-left: -11vw; margin-bottom: -14vh;"
+              src="./assets/images/page-bg-small.jpg" alt="The Prank - movie poster" />
           </div>
-          <div class="row">
-            <h2 class="col offset-4" style="color: rgb(178, 141, 60); font-size: 30px; font-weight: 500; max-width: 34vw;">
+          <!-- <div class="row justify-content-center"> -->
+            <h2 class="col-10 col-md-6 align-self-center text-end" style="color: rgb(178, 141, 60); font-size: 1.5rem; font-weight: 500;">
               "A performance of must-see deviousness and passive-aggressive glee by Rita Moreno."
-              <span class="row justify-content-end p-2" style="font-size: 15px; font-weight: bold;">
+              <span class="row justify-content-end" style="font-size: 1rem;">
                 -Owen Gleiberman, Variety
               </span>
             </h2>
-          </div>
+          <!-- </div> -->
           <div class="row mt-5 d-none d-md-block">
             <img class="col" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
           </div>
-          <div class="row d-md-none my-3 justify-content-center">
-            <img class="col titles-main-title img-fluid" src="./assets/images/tt-sm.png"
+          <!-- <div class="row d-md-none mb-5 mt-4 justify-content-center"> -->
+            <img class="col d-md-none img-fluid" src="./assets/images/tt-sm.png"
               alt="The Prank - Some kids... they take it too far." />
-          </div>
+          <!-- </div> -->
 
           <div class="row my-3 justify-content-evenly quick-buttons">
             <a class="col-4 rainbow-button" href="/#trailer">TRAILER</a>
@@ -138,7 +142,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--* TRAILER -->
     <section id="trailer" class="trailer-section flex-grow-1 min-vh-100">
