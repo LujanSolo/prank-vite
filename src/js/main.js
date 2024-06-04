@@ -13,10 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
   links.forEach(link => {
     link.addEventListener('click', function (event) {
       // Remove active-link class from all links
-      links.forEach(l => l.classList.remove('active'));
+          links.forEach(l => {
+        l.classList.remove('active');
+      });
 
       // Add active-link class to the clicked link
       event.currentTarget.classList.add('active');
+      event.currentTarget.ariaCurrent = 'true';
 
       // Close the offcanvas
       bsOffcanvas.hide();

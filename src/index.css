@@ -17,16 +17,16 @@ body {
 }
 
 main {
-  width: 100% !important;
+  /* width: 100% !important; */
 }
 
-/* section {
+section {
   min-height: 100vh !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-} */
+}
 
 /* .page-bg {
   width: 100%;
@@ -445,7 +445,6 @@ main {
 
 .synopsis-anchor {
   color: #d5d5d5;
-  text-decoration: none;
 }
 
 .synopsis-rating-bug {
