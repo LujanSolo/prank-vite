@@ -104,7 +104,7 @@
   <!--* MAIN -->
   <main class="container-fluid mt-5">
     <!--* HOME -->
-    <section id="home" class="container-fluid">
+    <section id="home" class="container-fluid flex-grow-1 min-vh-100">
       <div class="row">
         <div class="d-none d-md-block col-md-4 mt-1 ">
           <img class="image-fluid" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -9vw;"
@@ -120,10 +120,10 @@
               src="./assets/images/page-bg-small.jpg" alt="The Prank - movie poster" />
           </div>
           <div class="row justify-content-center">
-            <h2 class="col-10 col-md-6 align-self-center text-end"
-              style="color: rgb(178, 141, 60); font-size: 1.5rem; font-weight: 500;">
+            <h2 class="col-10 col-md-6 align-self-center"
+              style="color: rgb(178, 141, 60); font-size: 1rem; font-weight: 500;">
               "A performance of must-see deviousness and passive-aggressive glee by Rita Moreno."
-              <span class="row justify-content-end" style="font-size: 1rem;">
+              <span class="row ps-3" style="font-size: .8rem;">
                 -Owen Gleiberman, Variety
               </span>
             </h2>
@@ -135,31 +135,33 @@
             <img class="col d-md-none img-fluid" src="./assets/images/tt-sm.png"
               alt="The Prank - Some kids... they take it too far." />
           </div>
-          <div id="social" class="icons-container">
-            <ul class="offcanvas-icons d-flex justify-content-evenly w-100 p-0 pt-3">
-              <li class="facebook">
+          <div id="social">
+            <ul class="row">
+              <li class="col facebook">
                 <a href="https://www.facebook.com/prankmovie" target="_blank" rel="noopener">
                   <button class="border">
                     <i class="fa fa-facebook"></i>
                   </button>
                 </a>
               </li>
-              <li class="twitter">
+              <li class="col twitter">
                 <a class="tw-icon" href="https://twitter.com/theprank_movie" target="_blank" rel="noopener">
                   <button class="border"><i class="fa-brands fa-x-twitter"></i></button>
                 </a>
 
               </li>
-              <li class="instagram">
+              <li class="col instagram">
                 <a class="ig-icon" href="https://www.instagram.com/theprankmovie/" target="_blank" rel="noopener">
                   <button class="border"><i class="fa fa-instagram"></i></button>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="row my-3 justify-content-evenly quick-buttons">
-            <a class="col-4 rainbow-button" href="/#trailer">TRAILER</a>
-            <a class="col-4 rainbow-button" href="/#streaming">STREAM</a>
+          <div class="container">
+            <div class="row my-3 justify-content-evenly quick-buttons">
+              <a class="col-4 rainbow-button" href="/#trailer">TRAILER</a>
+              <a class="col-4 rainbow-button" href="/#streaming">STREAM</a>
+            </div>
           </div>
           <div class="row align-self-end" style="width: 20%;">
             <img src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
@@ -186,13 +188,13 @@
     </section>
 
     <!--* STREAMING -->
-    <div id="streaming" class="container min-vh-100">
+    <section id="streaming" class="container flex-grow-1 min-vh-100">
+      <div class="row m-3">
+        <h2 class="streaming-h2 col text-center">STREAMING NOW ON</h2>
+      </div>
       <div class="stream-bg row">
-        <img class="col-6 img-fluid" src="./assets/images/stream-bg.png" alt="Connor Kalopsis" />
-        <div class="col-4 streaming-icons-box text-center">
-          <div class="test-row row m-3">
-            <h2 class="streaming-h2 col">STREAMING NOW ON</h2>
-          </div>
+        <img class="col col-md-none img-fluid" src="./assets/images/prank-streaming-kids.jpg" alt="Connor Kalopsis" />
+        <div class="col streaming-icons-box text-center">
           <div class="row">
             <a class="col btn streaming-btn" type="button"
               href="https://www.amazon.com/Prank-Connor-Kalopsis/dp/B0CVKHH8XN?dib=eyJ2IjoiMSJ9.POqrHYHIX5_YSn1ouyrKtavbxAyKYP3YwxCTBhxiDhxZvM7UPtywp5iRHzxRtjKuiT4Z6XwVhfotemTlE7NBzihdTleIaxKY8OCmEuk7rkHTqvIMOz79TbP-r66Al1CR2tTrt8RiqPZmpcLdCQCEdlKF_DVB3J5q2OToV0g36rIaMUK4XDhV7Zyx8iY6BIgZs9uYyR08Pw8rdFrfZHMEOb2sr8FKsMmOV2FbXg9aZCE._qIhhPUs-5-3EEvb0-0YdDic5tuAT6BdKAO0yNgK0bw&dib_tag=se&s=instant-video"
@@ -200,8 +202,8 @@
               <img class="streaming-icon" src="./assets/stream-btns/prime-mini.png" alt="Prime Video" />
             </a>
             <a class="col btn streaming-btn" type="button"
-              href="https://tv.apple.com/us/movie/the-prank/umc.cmc.j7zkk1m7mwxnd80zyn65q22i?action=play" target="_blank"
-              rel="noopener">
+              href="https://tv.apple.com/us/movie/the-prank/umc.cmc.j7zkk1m7mwxnd80zyn65q22i?action=play"
+              target="_blank" rel="noopener">
               <img class="streaming-icon" src="./assets/stream-btns/appletv-mini.png" alt="AppleTV" />
             </a>
             <a class="col btn streaming-btn" type="button" href="https://www.youtube.com/watch?v=zlLT_Xml00E"
@@ -215,8 +217,8 @@
               <img class="streaming-icon" src="./assets/stream-btns/googleplay-mini.png" alt="Google Play" />
             </a>
             <a class="col btn streaming-btn" type="button"
-              href="https://www.microsoft.com/en-us/p/the-prank/8d6kgwxws6dq?activetab=pivot:overviewtab" target="_blank"
-              rel="noopener">
+              href="https://www.microsoft.com/en-us/p/the-prank/8d6kgwxws6dq?activetab=pivot:overviewtab"
+              target="_blank" rel="noopener">
               <img class="streaming-icon" src="./assets/stream-btns/ms-mini.png" alt="Microsoft Store" />
             </a>
             <a class="col btn streaming-btn" type="button"
@@ -227,11 +229,11 @@
           </div>
         </div>
       </div>
-     
-    </div>
+
+    </section>
 
     <!--* SYNOPSIS -->
-    <div id="synopsis" class="container synopsis-section flex-grow-1 min-vh-100">
+    <section id="synopsis" class="container synopsis-section flex-grow-1 min-vh-100">
       <div class="container">
         <div class="row synopsis-poster">
           <img class="col img-fluid" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
@@ -354,7 +356,7 @@
         </div>
       </div>
 
-    </div>
+    </section>
 
     <!--* INFO -->
     <section id="info" class="container info-section text-center flex-grow-1 min-vh-100">
@@ -394,7 +396,7 @@
       </div>
       <div class="offcanvas-body small credits-container">
         <div class="bugs">
-          <img class="billing-block" src="./assets/icons/billing-block.png" alt="billing block" />
+          <img class="billing-block img-fluid" src="./assets/icons/billing-block.png" alt="billing block" />
         </div>
         <div class="footer-links">
           <a href="https://dx35vtwkllhj9.cloudfront.net/iconicreleasing/images/PrivacyPolicy_ICONIC_EVENTS_RELEASING_LLC.pdf"
