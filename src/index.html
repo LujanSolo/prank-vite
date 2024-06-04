@@ -16,7 +16,7 @@
 <body>
 
   <!--* NAVBAR -->
-  <nav class="container navbar navbar-dark fixed-top d-flex justify-content-end p-3">
+  <nav class="container navbar navbar-dark d-flex justify-content-end">
     <div class="row d-flex align-items-center">
       <div class="col dropdown share-dropdown">
         <a class="btndropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -100,51 +100,45 @@
   </nav>
 
   <!--* MAIN -->
-  <main class="d-flex flex-column">
+  <main>
     <!--* HOME -->
-    <!-- background container-->
-    <div class="container">
+    <div id="home" class="container-fluid">
       <div class="row">
-        <div class="col-12 home-bg-box">
-          <div class="page-bg">
-            <!--*  poster bg via css -->
+        <div class="col-4">
+          <img class="image-fluid" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -2vw;"
+            src="./assets/images/bg.jpg" alt="The Prank - movie poster" />
+        </div>
+        <div class="col-8 d-flex flex-column justify-content-evenly">
+          <div class="row mb-5">
+            <img class="image-fluid" style="background-size: contain; width: 100%;" src="./assets/images/names.png"
+              alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
+          </div>
+          <div class="row">
+            <h2 class="col offset-4" style="color: rgb(178, 141, 60); font-size: 30px; font-weight: 500; max-width: 34vw;">
+              "A performance of must-see deviousness and passive-aggressive glee by Rita Moreno."
+              <span class="row justify-content-end p-2" style="font-size: 15px; font-weight: bold;">
+                -Owen Gleiberman, Variety
+              </span>
+            </h2>
+          </div>
+          <div class="row mt-5 d-none d-md-block">
+            <img class="col" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
+          </div>
+          <div class="row d-md-none my-3 justify-content-center">
+            <img class="col titles-main-title img-fluid" src="./assets/images/tt-sm.png"
+              alt="The Prank - Some kids... they take it too far." />
+          </div>
+
+          <div class="row my-3 justify-content-evenly quick-buttons">
+            <a class="col-4 rainbow-button" href="/#trailer">TRAILER</a>
+            <a class="col-4 rainbow-button" href="/#streaming">STREAM</a>
+          </div>
+          <div class="row align-self-end" style="width: 20%;">
+            <img src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
           </div>
         </div>
       </div>
     </div>
-    <!-- titles and quote -->
-    <section id="home" class="container titles-section flex-grow-1 min-vh-100">
-      <div class="row top-row">
-        <img class="col titles-headliners img-fluid" src="./assets/images/names.png"
-          alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
-      </div>
-      <div class="row middle-row justify-content-center">
-        <h2 class="col titles-quote">
-          "A performance of must-see deviousness and passive-aggressive glee by Rita Moreno."
-          <span class="row justify-content-end">
-            -Owen Gleiberman, Variety
-          </span>
-        </h2>
-      </div>
-      <div class="bottom-rows">
-        <div class="row my-3 justify-content-center">
-          <img class="col titles-small-title img-fluid" src="./assets/images/tt-sm.png"
-            alt="The Prank - Some kids... they take it too far." />
-        </div>
-        <div class="row my-3 justify-content-center">
-          <img class="col titles-main-title img-fluid" src="./assets/images/tt.png"
-            alt="The Prank - Some kids... they take it too far." />
-        </div>
-        <div class="row my-3 justify-content-center quick-buttons">
-          <a class="col-auto rainbow-button" href="/#trailer">TRAILER</a>
-          <a class="col-auto rainbow-button" href="/#streaming">STREAM</a>
-        </div>
-        <div class="iconic-logo row justify-content-end">
-          <img class="col img-fluid" src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
-        </div>
-      </div>
-
-    </section>
 
     <!--* TRAILER -->
     <section id="trailer" class="trailer-section flex-grow-1 min-vh-100">
