@@ -22,10 +22,18 @@ section {
   align-content: center !important  ;
 }
 
+q {
+  text-decoration: none !important;
+}
+
 .streaming-h2,
 .synopsis-h2,
 .trailer-h2 {
   font-weight: 900;
+}
+
+.bg-invis {
+  background-color: transparent !important;
 }
 
 .streaming-icon {
@@ -215,6 +223,13 @@ section {
 }
 
 //** HOMEPAGE **/
+.variety-quote {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #CEA661; 
+  font-size: 28px;  
+  // max-width: 60%; 
+}
+
 .quick-buttons a {
   text-decoration: none;
 }
@@ -231,8 +246,8 @@ section {
   --neon-shadow-bright: 0 0 3px 4px var(--bright-neon), 0 0 8px 4px var(--bright-neon) inset;
   --neon-shadow-text: 0 0 3px var(--primary-neon);
 
-  width: calc(16vw + 6px);
-  height: calc(4vw + 6px);
+  width: calc(8vw + 6px);
+  height: calc(2vw + 6px);
   color: var(--primary-neon);
   text-shadow: var(--neon-shadow-text);
   border: 1px solid var(--primary-neon);
@@ -241,7 +256,7 @@ section {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 2.3vw;
+  font-size: 1.2vw;
   font-weight: bold;
   box-shadow: var(--neon-shadow);
   animation: flicker 5s linear infinite;
@@ -333,6 +348,8 @@ section {
   right: 1%;
   bottom: 1%;
 }
+
+
 
 //* TRAILER SECTION
 .embed-responsive {
@@ -478,4 +495,8 @@ footer .rating-bug {
 
 .element {
   @include clearfix;
+}
+
+@media screen and (min-width: 768px) {
+
 }

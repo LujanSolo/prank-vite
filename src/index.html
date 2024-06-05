@@ -18,7 +18,7 @@
 <body>
 
   <!--* NAVBAR -->
-  <nav class="container-fluid navbar navbar-dark d-flex justify-content-end fixed-top pe-2">
+  <nav class="container-fluid navbar navbar-dark bg-invis d-flex justify-content-end fixed-top pe-2">
     <div class="row d-flex align-items-center">
       <div class="col dropdown share-dropdown">
         <a class="btndropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -102,15 +102,15 @@
   </nav>
 
   <!--* MAIN -->
-  <main class="container-fluid mt-5">
+  <main class="container-fluid">
     <!--* HOME -->
     <section id="home" class="container-fluid flex-grow-1 min-vh-100">
       <div class="row">
-        <div class="d-none d-md-block col-md-4 mt-1 ">
-          <img class="image-fluid" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -9vw;"
+        <div class="d-none col-md-4 d-md-block">
+          <img class="image-fluid home-image" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -5vw;  margin-top: -11vh;"
             src="./assets/images/bg.jpg" alt="The Prank - movie poster" />
         </div>
-        <div class="col-md-8 d-flex flex-column justify-content-between">
+        <div class="col-md-6 offset-1 d-flex flex-column p-5">
           <div class="row">
             <img class="image-fluid" src="./assets/images/names.png"
               alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
@@ -119,17 +119,16 @@
             <img class="image-fluid" style="width: 100vw; margin-left: -11vw; margin-bottom: -14vh;"
               src="./assets/images/page-bg-small.jpg" alt="The Prank - movie poster" />
           </div>
-          <div class="row justify-content-center">
-            <h2 class="col-10 col-md-6 align-self-center"
-              style="color: rgb(178, 141, 60); font-size: 1rem; font-weight: 500;">
-              "A performance of must-see deviousness and passive-aggressive glee by Rita Moreno."
-              <span class="row ps-3" style="font-size: .8rem;">
+          <div class="row">
+            <h2 class="col-5 mt-5 d-flex flex-column justify-content-center text-center variety-quote">
+              <q cite="https://variety.com/2022/film/reviews/the-prank-review-rita-moreno-1235206705/">A performance of must-see deviousness and passive-aggressive glee by Rita Moreno.</q>
+              <span class="row justify-content-center" style="font-size: 1rem; font-style: italic;">
                 -Owen Gleiberman, Variety
               </span>
             </h2>
           </div>
           <div class="row d-none d-md-flex justify-content-center">
-            <img class="col-10" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
+            <img class="col-8 mt-4" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
           </div>
           <div class="row d-md-none mb-5 mt-4 justify-content-center">
             <img class="col d-md-none img-fluid" src="./assets/images/tt-sm.png"
@@ -157,14 +156,14 @@
               </li>
             </ul>
           </div>
-          <div class="container">
-            <div class="row my-3 justify-content-evenly quick-buttons">
+          <!-- <div class="container"> -->
+            <div class="row gap-4 justify-content-center quick-buttons">
               <a class="col-4 rainbow-button" href="/#trailer">TRAILER</a>
               <a class="col-4 rainbow-button" href="/#streaming">STREAM</a>
             </div>
-          </div>
-          <div class="row align-self-end" style="width: 20%;">
-            <img src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
+          <!-- </div> -->
+          <div class="row justify-content-end">
+            <img class='col-2' src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
           </div>
         </div>
       </div>
@@ -233,13 +232,13 @@
     </section>
 
     <!--* SYNOPSIS -->
-    <section id="synopsis" class="container mt-5 pt-5 synopsis-section flex-grow-1 min-vh-100">
+    <section id="synopsis" class="container mt-5 pt-5 synopsis-section min-vh-100">
       <!-- <div class="container"> -->
         <div class="row">
-          <img class="col-10 col-lg-6 img-fluid synopsis-poster" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
+          <img class="col-10 col-lg-4 img-fluid synopsis-poster" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
         
 
-        <div class="col-lg-6 synopsis-text-box p-4">
+        <div class="col-lg-8 synopsis-text-box p-4">
           <div class="row">
             <p class="col">
               In their seemingly ordinary senior year at West Greenview High, the unexpected unfolds when overachiever
