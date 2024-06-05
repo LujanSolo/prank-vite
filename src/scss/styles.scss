@@ -229,7 +229,7 @@ q {
   color: #CEA661;
   // font-size: 1rem;
   // font-size: 28px;
-  width: 400px !important;
+  // width: 400px !important;
 }
 
 .quick-buttons a {
@@ -499,4 +499,14 @@ footer .rating-bug {
   @include clearfix;
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  #home {
+    position: relative;
+  }
+
+  .title-block {
+    position: absolute;
+    top: 0;
+  }
+
+}
