@@ -479,18 +479,3 @@ footer .rating-bug {
 .element {
   @include clearfix;
 }
-
-
-/** MEDIA QUERIES **/
-@media screen and (min-width: 564px) {
-  
-  .synopsis-poster {
-    float: left;
-    max-width: 40% !important;
-  }
-
-  .synopsis-text-box {
-    max-width: 60% !important;
-    float: right;
-  }
-}
