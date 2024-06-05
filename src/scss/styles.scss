@@ -14,12 +14,13 @@ body {
 }
 
 section {
+  min-height: 912px !important;
   min-height: 100vh !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  align-content: center !important  ;
+  align-content: center !important;
 }
 
 q {
@@ -225,9 +226,9 @@ q {
 //** HOMEPAGE **/
 .variety-quote {
   font-family: 'IM Fell DW Pica', serif;
-  color: #CEA661; 
-  font-size: 28px;  
-  // max-width: 60%; 
+  color: #CEA661;
+  // font-size: 28px;
+  width: 500px !important;
 }
 
 .quick-buttons a {
@@ -246,8 +247,8 @@ q {
   --neon-shadow-bright: 0 0 3px 4px var(--bright-neon), 0 0 8px 4px var(--bright-neon) inset;
   --neon-shadow-text: 0 0 3px var(--primary-neon);
 
-  width: calc(8vw + 6px);
-  height: calc(2vw + 6px);
+  width: calc(12vw + 6px);
+  height: calc(3vw + 6px);
   color: var(--primary-neon);
   text-shadow: var(--neon-shadow-text);
   border: 1px solid var(--primary-neon);
@@ -256,8 +257,8 @@ q {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 1.2vw;
-  font-weight: bold;
+  font-size: 1.4vw;
+  // font-weight: bold;
   box-shadow: var(--neon-shadow);
   animation: flicker 5s linear infinite;
 }
@@ -497,6 +498,4 @@ footer .rating-bug {
   @include clearfix;
 }
 
-@media screen and (min-width: 768px) {
-
-}
+@media screen and (min-width: 768px) {}

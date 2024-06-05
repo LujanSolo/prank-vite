@@ -102,38 +102,52 @@
   </nav>
 
   <!--* MAIN -->
-  <main class="container-fluid">
+  <main>
     <!--* HOME -->
     <section id="home" class="container-fluid flex-grow-1 min-vh-100">
+
+      
       <div class="row">
-        <div class="d-none col-md-4 d-md-block">
-          <img class="image-fluid home-image" style="background-size: contain; z-index: -1; width: 100vw; margin-left: -5vw;  margin-top: -11vh;"
+        <!-- medium screen and up poster -->
+        <div class="d-none col-4 d-md-block z-n1" style="margin-top: -8vh;">
+          <img class="image-fluid" style="background-size: cover; width: 100vw;"
             src="./assets/images/bg.jpg" alt="The Prank - movie poster" />
         </div>
-        <div class="col-md-6 offset-1 d-flex flex-column p-5">
+
+        <div class="col-md-6 offset-md-1 z-md-2 pt-5 pt-md-3">
+        <!-- names -->
           <div class="row">
             <img class="image-fluid" src="./assets/images/names.png"
               alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
           </div>
-          <div class="d-md-none">
+
+        <!-- small screen poster -->
+          <div class="d-md-none row justify-content-center">
             <img class="image-fluid" style="width: 100vw; margin-left: -11vw; margin-bottom: -14vh;"
               src="./assets/images/page-bg-small.jpg" alt="The Prank - movie poster" />
           </div>
-          <div class="row">
-            <h2 class="col-5 mt-5 d-flex flex-column justify-content-center text-center variety-quote">
+        
+        <!-- quote -->
+          <div class="row justify-content-center justify-content-md-start">
+            <h2 class="col-md-8 mt-5 d-flex flex-column text-center variety-quote fs-4 fs-md-3">
               <q cite="https://variety.com/2022/film/reviews/the-prank-review-rita-moreno-1235206705/">A performance of must-see deviousness and passive-aggressive glee by Rita Moreno.</q>
               <span class="row justify-content-center" style="font-size: 1rem; font-style: italic;">
                 -Owen Gleiberman, Variety
               </span>
             </h2>
           </div>
+        
+          <!-- large screen title -->
           <div class="row d-none d-md-flex justify-content-center">
             <img class="col-8 mt-4" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
           </div>
+        
+          <!-- small screen title -->
           <div class="row d-md-none mb-5 mt-4 justify-content-center">
             <img class="col d-md-none img-fluid" src="./assets/images/tt-sm.png"
               alt="The Prank - Some kids... they take it too far." />
           </div>
+        
           <div id="social" style="margin-left: -50px;">
             <ul class="row">
               <li class="col facebook m-3">
@@ -170,7 +184,7 @@
     </section>
 
     <!--* TRAILER -->
-    <section id="trailer" class="trailer-section flex-grow-1 min-vh-100">
+    <section id="trailer" class="trailer-section flex-grow-1 min-vh-100 position-relative">
       <div class="container-fluid trailer-container">
         <div class="row justify-content-center align-items-center trailer-row">
           <div class="col-12 col-lg-10">
@@ -232,7 +246,7 @@
     </section>
 
     <!--* SYNOPSIS -->
-    <section id="synopsis" class="container mt-5 pt-5 synopsis-section min-vh-100">
+    <section id="synopsis" class="container flex-grow-1 mt-5 pt-5 synopsis-section min-vh-100">
       <!-- <div class="container"> -->
         <div class="row">
           <img class="col-10 col-lg-4 img-fluid synopsis-poster" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
