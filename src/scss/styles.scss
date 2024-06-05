@@ -14,8 +14,6 @@ body {
 }
 
 section {
-  min-height: 912px !important;
-  min-height: 100vh !important;
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
@@ -508,5 +506,4 @@ footer .rating-bug {
     position: absolute;
     top: 0;
   }
-
 }
