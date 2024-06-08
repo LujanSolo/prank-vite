@@ -109,17 +109,25 @@ q {
   padding: 20px 0 5px 0;
 }
 
-#social {
+#social-main {
+  margin-top: -45px;
+}
+
+#social,
+#social-main {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-#social li {
+#social li,
+#social-main li {
   list-style-type: none !important;
   cursor: pointer;
 }
+
+
 
 /** Facebook **/
 .facebook {
@@ -246,6 +254,7 @@ q {
 
 .quick-buttons a {
   text-decoration: none;
+  margin-top: -30px;
 }
 
 .rainbow-button {
