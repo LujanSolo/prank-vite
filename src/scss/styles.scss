@@ -550,5 +550,35 @@ footer .rating-bug {
   .variety-quote span {
     font-size: 14px !important;
   }
-  
+}
+
+@media screen and (min-width: 1200px) {
+  .variety-quote {
+    font-size: 24px !important;
+  }
+
+  .variety-quote span {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .variety-quote {
+    font-size: 28px !important;
+  }
+
+  .variety-quote span {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .variety-quote {
+    font-size: 32px !important;
+    margin: 50px !important;
+  }
+
+  .variety-quote span {
+    font-size: 24px !important;
+  }
 }
