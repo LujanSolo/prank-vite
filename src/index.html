@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  
+  <div class="wrapper-body">
     <!--* NAVBAR -->
     <nav class="container-fluid navbar navbar-dark bg-invis d-flex justify-content-end fixed-top pe-3">
       <div class="row d-flex align-items-center">
@@ -103,18 +103,16 @@
 
     <!--* MAIN -->
 
-    <main>
+    <main class="sections-wrapper">
+      <!--bg-->
+
       <!--* HOME -->
       <section id="home" class="container-fluid">
-
+        <div class="main-bg d-none d-md-flex">
+          <!-- pg background changes for small screen vs md+ -->
+        </div>
         <div class="row title-block pe-md-1">
-          <!-- medium screen and up poster -->
-          <div class="d-none col-md-4 d-md-block" style="margin-top: -6vh;">
-            <img style="background-size: contain; width: 100vw;" src="./assets/images/bg.jpg"
-              alt="The Prank - movie poster" />
-          </div>
-
-          <div class="col-md-6 offset-md-1 z-2 d-flex flex-column mt-5">
+          <div class="col-md-8 offset-md-4 d-flex flex-column mt-5">
             <!-- names -->
             <div class="row">
               <img class="col" src="./assets/images/names.png"
@@ -128,7 +126,7 @@
 
             <!-- quote -->
             <div class="row">
-              <div class="col-12 d-flex justify-content-center justify-content-md-start">
+              <div class="col">
                 <h2 class="text-center variety-quote pt-3">
                   <q cite="https://variety.com/2022/film/reviews/the-prank-review-rita-moreno-1235206705/">A performance
                     of must-see deviousness and passive-aggressive glee by Rita Moreno.</q>
@@ -142,7 +140,7 @@
 
             <!-- large screen title -->
             <div class="row d-none d-md-flex justify-content-center">
-              <img class="col" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
+              <img class="col-9" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
             </div>
 
             <!-- small screen title -->
@@ -151,38 +149,39 @@
                 alt="The Prank - Some kids... they take it too far." />
             </div>
 
-            <div id="social-main" style="margin-left: -50px; margin-top: -20px;">
-              <ul class="row">
-                <li class="col facebook m-3">
+            <div id="social-main" class="row align-self-center">
+              <ul class="col d-flex">
+                <li class=" facebook m-3">
                   <a href="https://www.facebook.com/prankmovie" target="_blank" rel="noopener">
                     <button class="border">
                       <i class="fa fa-facebook"></i>
                     </button>
                   </a>
                 </li>
-                <li class="col twitter m-3">
+                <li class="twitter m-3">
                   <a class="tw-icon" href="https://twitter.com/theprank_movie" target="_blank" rel="noopener">
                     <button class="border"><i class="fa-brands fa-x-twitter"></i></button>
                   </a>
-
                 </li>
-                <li class="col instagram m-3">
+                <li class="instagram m-3">
                   <a class="ig-icon" href="https://www.instagram.com/theprankmovie/" target="_blank" rel="noopener">
                     <button class="border"><i class="fa fa-instagram"></i></button>
                   </a>
                 </li>
               </ul>
             </div>
-            <!-- <div class="container"> -->
+
             <div class="row gap-3 justify-content-center quick-buttons">
               <a class="col-2 rainbow-button" href="/#trailer">TRAILER</a>
               <a class="col-2 rainbow-button" href="/#streaming">STREAM</a>
             </div>
-            <!-- </div> -->
-            <div class="row justify-content-end me-1">
-              <img class='col-2' src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
+
+            <div class="row">
+              <img class='iconic-logo' src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
             </div>
           </div>
+
+         
         </div>
       </section>
 
@@ -262,7 +261,9 @@
       <section id="synopsis" class="container synopsis-section section-box">
         <!-- <div class="container"> -->
         <div class="row">
-          <div class="col-10 col-md-6 img-fluid synopsis-poster" alt="The Prank - movie poster"></div>
+          <div class="col-10 col-md-6 img-fluid synopsis-poster" alt="The Prank - movie poster">
+            <img class="img-fluid" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
+          </div>
 
 
           <div class="col-md-6 synopsis-text-box p-4">
@@ -433,7 +434,7 @@
         </div>
       </div>
     </footer>
-
+  </div>
 
   <script src="https://kit.fontawesome.com/2d308f669c.js" crossorigin="anonymous"></script>
   <script type="module" src="./js/main.js"></script>
