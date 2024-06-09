@@ -33,19 +33,25 @@ body {
   background-image: url(/assets/images/bg.jpg);
   background-color: #000000;
   background-repeat: no-repeat;
-  background-size: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  background-size: contain; /* Ensures the image covers the container while maintaining aspect ratio */
   // background-position: left 25%; /* Adjusts the position of the background image */
   background-attachment: scroll; /* Keeps the background fixed while scrolling */
-  top: -6vh;
-  left: -12vw;
+  top: -5vh;
+  // left: -15vw;
   right: 0;
   bottom: 0;
   overflow: hidden;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .main-bg {
-    left: -2vw;
+    // left: -5vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-bg {
+    // left: -33vw;
   }
 }
 
@@ -579,6 +585,7 @@ footer .rating-bug {
   .variety-quote span {
     font-size: 14px !important;
   }
+
 }
 
 @media screen and (min-width: 1200px) {
