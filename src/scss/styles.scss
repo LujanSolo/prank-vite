@@ -14,21 +14,21 @@ body {
   scroll-behavior: smooth;
 }
 
-
 main {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: flex-end;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // height: 100%;
+  // justify-content: flex-end;
+  // align-items: center;
 }
 
 section {
   // max-width: 100vw !important;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: center !important;
+  // display: flex;
+  // flex-direction: column;
+  min-height: 100vh !important;
+  // height: 100% !important;
+  // justify-content: center !important;
   // margin:  0 auto !important;
   // align-items: center !important;
   // align-content: center !important;
@@ -373,31 +373,22 @@ q {
   bottom: 22%;
 }
 
-
+.box {
+  background-color: pink;
+  border: 4px solid red;
+}
 
 //* TRAILER SECTION
-.embed-responsive {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
-  width: 100%;
-}
 
-.embed-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 
 //* SYNOPSIS SECTION **/
 .synopsis-poster {
-  border: 1px solid white !important;
   margin: 0 auto !important;
+  background-image: url('/assets/images/synopsis-poster.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .synopsis-anchor {
@@ -529,7 +520,7 @@ footer .rating-bug {
   .title-block {
     position: absolute;
     top: 0;
-  } 
+  }
 
   .variety-quote {
     font-size: 14px !important;
@@ -580,5 +571,26 @@ footer .rating-bug {
 
   .variety-quote span {
     font-size: 24px !important;
+  }
+}
+
+
+//** TRAILER SECTION **/
+.section-box {
+   padding: 3vh 15px;
+    position: relative;
+    z-index: 8;
+    max-width: 60vw;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1680px) {
+  .section-box {
+      padding: 5vh 15px;
   }
 }
