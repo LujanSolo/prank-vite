@@ -16,159 +16,77 @@
 </head>
 
 <body>
-  
-    <!--* NAVBAR -->
-    <nav class="container-fluid navbar navbar-dark bg-invis d-flex justify-content-end fixed-top pe-3">
-      <div class="row d-flex align-items-center">
-        <div class="col dropdown share-dropdown">
-          <a class="btndropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img class='share-icon' src='./assets/icons/share-icon.png' alt="social sharing" />
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftheprank-movie.com%2F"
-                target="_blank" rel="noopener">
-                <img class="social-share-icons" src="./assets/icons/fb.svg" alt="facebook" />
-              </a></li>
-            <li><a
-                href="https://twitter.com/intent/tweet?text=%23ThePrankMovie%2C%20The%20Prank%20Movie%20-%20Only%20in%20Theaters%20March%2015.&url=https%3A%2F%2Ftheprank-movie.com%2F"
-                target="_blank" rel="noopener">
-                <img class="social-share-icons" src="./assets/icons/tw.svg" alt="twitter" />
-              </a></li>
-          </ul>
-        </div>
 
-        <button class="col navbar-toggler main-toggle" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="offcanvas offcanvas-end navbar-offcanvas" tabindex="-1" id="offcanvasDarkNavbar"
-          aria-labelledby="offcanvasDarkNavbarLabel">
-
-          <div class="offcanvas-header">
-            <button type="button" class="btn-close" style="background-color: white; border: 1px solid #d5d5d5;"
-              data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-
-          <div class="offcanvas-body nav-container d-flex flex-column mt-5">
-            <ul class="navbar-nav text-center p-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#trailer">TRAILER</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#streaming">STREAMING</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#synopsis">SYNOPSIS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#info">MORE INFORMATION</a>
-              </li>
-              <li class="socials">
-                <div class="hashtag pt-3">
-                  <a>#ThePrankMovie</a>
-                </div>
-                <div id="social" class="icons-container">
-                  <ul class="offcanvas-icons d-flex justify-content-evenly w-100 p-0 pt-3">
-                    <li class="facebook">
-                      <a href="https://www.facebook.com/prankmovie" target="_blank" rel="noopener">
-                        <button class="border">
-                          <i class="fa fa-facebook"></i>
-                        </button>
-                      </a>
-                    </li>
-                    <li class="twitter">
-                      <a class="tw-icon" href="https://twitter.com/theprank_movie" target="_blank" rel="noopener">
-                        <button class="border"><i class="fa-brands fa-x-twitter"></i></button>
-                      </a>
-
-                    </li>
-                    <li class="instagram">
-                      <a class="ig-icon" href="https://www.instagram.com/theprankmovie/" target="_blank" rel="noopener">
-                        <button class="border"><i class="fa fa-instagram"></i></button>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-
-              </li>
-            </ul>
-          </div>
-        </div>
+  <!--* NAVBAR -->
+  <nav class="container-fluid navbar navbar-dark bg-invis d-flex justify-content-end fixed-top pe-3">
+    <div class="row d-flex align-items-center">
+      <div class="col dropdown share-dropdown">
+        <a class="btndropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img class='share-icon' src='./assets/icons/share-icon.png' alt="social sharing" />
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftheprank-movie.com%2F" target="_blank"
+              rel="noopener">
+              <img class="social-share-icons" src="./assets/icons/fb.svg" alt="facebook" />
+            </a></li>
+          <li><a
+              href="https://twitter.com/intent/tweet?text=%23ThePrankMovie%2C%20The%20Prank%20Movie%20-%20Only%20in%20Theaters%20March%2015.&url=https%3A%2F%2Ftheprank-movie.com%2F"
+              target="_blank" rel="noopener">
+              <img class="social-share-icons" src="./assets/icons/tw.svg" alt="twitter" />
+            </a></li>
+        </ul>
       </div>
-    </nav>
 
-    <!--* MAIN -->
+      <button class="col navbar-toggler main-toggle" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <main>
-      <!--bg-->
+      <div class="offcanvas offcanvas-end navbar-offcanvas" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
 
-      <!--* HOME -->
-      <section id="home">
-        <div class="main-bg d-none d-md-flex">
-          <!-- pg background changes for small screen vs md+ -->
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" style="background-color: white; border: 1px solid #d5d5d5;"
+            data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 offset-md-5 title-block pe-1 d-flex flex-column pt-5">
-
-              <!-- <div class="d-flex flex-column mt-5"> -->
-              <!-- names -->
-              <div class="row">
-                <img class="col" src="./assets/images/names.png"
-                  alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
+        <div class="offcanvas-body nav-container d-flex flex-column mt-5">
+          <ul class="navbar-nav text-center p-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trailer">TRAILER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#streaming">STREAMING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#synopsis">SYNOPSIS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">MORE INFORMATION</a>
+            </li>
+            <li class="socials">
+              <div class="hashtag pt-3">
+                <a>#ThePrankMovie</a>
               </div>
-
-              <!-- small screen poster -->
-              <div class="d-md-none row justify-content-center">
-                <img class="col" src="./assets/images/page-bg-small.jpg" alt="The Prank - movie poster" />
-              </div>
-
-              <!-- quote -->
-              <div class="row">
-                <div class="col">
-                  <h2 class="text-center variety-quote pt-3">
-                    <q cite="https://variety.com/2022/film/reviews/the-prank-review-rita-moreno-1235206705/">A
-                      performance
-                      of must-see deviousness and passive-aggressive glee by Rita Moreno.</q>
-                    <span class="row justify-content-center" style="font-style: italic;">
-                      -Owen Gleiberman, Variety
-                    </span>
-                  </h2>
-                </div>
-
-              </div>
-
-              <!-- large screen title -->
-              <div class="row d-none d-md-flex justify-content-center">
-                <img class="col-9" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
-              </div>
-
-              <!-- small screen title -->
-              <div class="row d-md-none mt-4 justify-content-center">
-                <img class="col d-md-none" src="./assets/images/tt-sm.png"
-                  alt="The Prank - Some kids... they take it too far." />
-              </div>
-
-              <div id="social-main" class="row align-self-center">
-                <ul class="col d-flex">
-                  <li class=" facebook m-3">
+              <div id="social" class="icons-container">
+                <ul class="offcanvas-icons d-flex justify-content-evenly w-100 p-0 pt-3">
+                  <li class="facebook">
                     <a href="https://www.facebook.com/prankmovie" target="_blank" rel="noopener">
                       <button class="border">
                         <i class="fa fa-facebook"></i>
                       </button>
                     </a>
                   </li>
-                  <li class="twitter m-3">
+                  <li class="twitter">
                     <a class="tw-icon" href="https://twitter.com/theprank_movie" target="_blank" rel="noopener">
                       <button class="border"><i class="fa-brands fa-x-twitter"></i></button>
                     </a>
+
                   </li>
-                  <li class="instagram m-3">
+                  <li class="instagram">
                     <a class="ig-icon" href="https://www.instagram.com/theprankmovie/" target="_blank" rel="noopener">
                       <button class="border"><i class="fa fa-instagram"></i></button>
                     </a>
@@ -176,40 +94,115 @@
                 </ul>
               </div>
 
-              <div class="row gap-3 justify-content-center quick-buttons">
-                <a class="col-2 rainbow-button" href="/#trailer">TRAILER</a>
-                <a class="col-2 rainbow-button" href="/#streaming">STREAM</a>
-              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-              <div class="row">
-                <img class='iconic-logo' src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
-              </div>
-              <!-- </div> -->
+  <!--* MAIN -->
 
+  <main>
+    <!--bg-->
+
+    <!--* HOME -->
+    <section id="home">
+      <div class="main-bg d-none d-md-block">
+        <!-- pg background changes for small screen vs md+ -->
+      </div>
+
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col-md-6 offset-md-5 d-flex flex-column mt-5">
+            <!-- names -->
+            <div class="row">
+              <img class="col" src="./assets/images/names.png"
+                alt="Headline Actors: Connor Kalopsis, Ramona Young, and Rita Moreno" />
+            </div>
+            <!-- small screen poster -->
+            <div class="row d-md-none justify-content-center">
+              <img class="col" src="./assets/images/page-bg-small.jpg" alt="The Prank - movie poster" />
+            </div>
+            <!-- quote -->
+            <div class="row">
+              <div class="col">
+                <h2 class="text-center variety-quote pt-3">
+                  <q cite="https://variety.com/2022/film/reviews/the-prank-review-rita-moreno-1235206705/">A
+                    performance
+                    of must-see deviousness and passive-aggressive glee by Rita Moreno.</q>
+                  <span class="row justify-content-center" style="font-style: italic;">
+                    -Owen Gleiberman, Variety
+                  </span>
+                </h2>
+              </div>
             </div>
 
+            <!-- large screen title -->
+            <div class="row d-none d-md-flex justify-content-center">
+              <img class="col-9" src="./assets/images/tt.png" alt="The Prank - Some kids... they take it too far." />
+            </div>
 
+            <!-- small screen title -->
+            <div class="row d-md-none mt-4 justify-content-center">
+              <img class="col d-md-none" src="./assets/images/tt-sm.png"
+                alt="The Prank - Some kids... they take it too far." />
+            </div>
 
-          </div>
-        </div>
+            <!-- socials -->
+            <div class="row" id="social-main">
+              <ul class="col d-flex justify-content-center">
+                <li class=" facebook m-3">
+                  <a href="https://www.facebook.com/prankmovie" target="_blank" rel="noopener">
+                    <button class="border">
+                      <i class="fa fa-facebook"></i>
+                    </button>
+                  </a>
+                </li>
+                <li class="twitter m-3">
+                  <a class="tw-icon" href="https://twitter.com/theprank_movie" target="_blank" rel="noopener">
+                    <button class="border"><i class="fa-brands fa-x-twitter"></i></button>
+                  </a>
+                </li>
+                <li class="instagram m-3">
+                  <a class="ig-icon" href="https://www.instagram.com/theprankmovie/" target="_blank" rel="noopener">
+                    <button class="border"><i class="fa fa-instagram"></i></button>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-      </section>
+            <!-- quick buttons -->
+            <div class="row gap-3 justify-content-center quick-buttons">
+              <a class="col-2 rainbow-button" href="/#trailer">TRAILER</a>
+              <a class="col-2 rainbow-button" href="/#streaming">STREAM</a>
+            </div>
 
-      <!--* TRAILER -->
-      <section id="trailer" class="container-fluid ">
-        <div class="row">
-          <div class="col section-box">
-            <h2 class="trailer-h2 text-center">WATCH THE TRAILER</h2>
-            <div class="ratio ratio-16x9 mx-auto">
-              <iframe class="img-fluid" src="https://www.youtube.com/embed/OrFl-CNHsu4?si=3KvGqE9uPzMrudYQ"
-                title="YouTube video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- iconic logo -->
+            <div class="row">
+              <img class='iconic-logo' src="./assets/images/iconic-logo.png" alt="Iconic Releasing logo" />
             </div>
           </div>
         </div>
-        <!-- </div> -->
-        <!-- <div class="row justify-content-center align-items-center">
+      </div>
+
+    </section>
+
+    <!--* TRAILER -->
+    <section id="trailer" class="container-fluid ">
+      <div class="row">
+        <div class="col section-box">
+          <h2 class="trailer-h2 text-center">WATCH THE TRAILER</h2>
+          <div class="ratio ratio-16x9 mx-auto">
+            <iframe class="img-fluid" src="https://www.youtube.com/embed/OrFl-CNHsu4?si=3KvGqE9uPzMrudYQ"
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- <div class="row justify-content-center align-items-center">
         <div class="col">
           <h2 class="trailer-h2 text-center">WATCH THE TRAILER</h2>
           <div class="embed-responsive embed-responsive-16by9">
@@ -220,230 +213,230 @@
           </div>
         </div>
       </div> -->
-      </section>
+    </section>
 
-      <!--* STREAMING -->
-      <section id="streaming" class="container mx-auto section-box">
-        <div class="row m-3">
-          <h2 class="streaming-h2 col text-center">STREAMING NOW ON</h2>
-        </div>
-        <div class="stream-bg row justify-content-center">
-          <img class="col-10 col-md-4 img-fluid" src="./assets/images/prank-streaming-kids.jpg" alt="Connor Kalopsis" />
-          <div class="col-md-6 streaming-icons-box align-self-center pt-5 pt-md-0">
-            <div class="row">
-              <a class="col btn streaming-btn" type="button"
-                href="https://www.amazon.com/Prank-Connor-Kalopsis/dp/B0CVKHH8XN?dib=eyJ2IjoiMSJ9.POqrHYHIX5_YSn1ouyrKtavbxAyKYP3YwxCTBhxiDhxZvM7UPtywp5iRHzxRtjKuiT4Z6XwVhfotemTlE7NBzihdTleIaxKY8OCmEuk7rkHTqvIMOz79TbP-r66Al1CR2tTrt8RiqPZmpcLdCQCEdlKF_DVB3J5q2OToV0g36rIaMUK4XDhV7Zyx8iY6BIgZs9uYyR08Pw8rdFrfZHMEOb2sr8FKsMmOV2FbXg9aZCE._qIhhPUs-5-3EEvb0-0YdDic5tuAT6BdKAO0yNgK0bw&dib_tag=se&s=instant-video"
-                target="_blank" rel="noopener">
-                <img class="streaming-icon" src="./assets/stream-btns/prime-mini.png" alt="Prime Video" />
-              </a>
-              <a class="col btn streaming-btn" type="button"
-                href="https://tv.apple.com/us/movie/the-prank/umc.cmc.j7zkk1m7mwxnd80zyn65q22i?action=play"
-                target="_blank" rel="noopener">
-                <img class="streaming-icon" src="./assets/stream-btns/appletv-mini.png" alt="AppleTV" />
-              </a>
-              <a class="col btn streaming-btn" type="button" href="https://www.youtube.com/watch?v=zlLT_Xml00E"
-                target="_blank" rel="noopener">
-                <img class="streaming-icon" src="./assets/stream-btns/youtube-mini.png" alt="youTube" />
-              </a>
-            </div>
-            <div class="row">
-              <a class="col btn streaming-btn" type="button"
-                href="https://play.google.com/store/movies/details?id=avYzI9NigaE.P" target="_blank" rel="noopener">
-                <img class="streaming-icon" src="./assets/stream-btns/googleplay-mini.png" alt="Google Play" />
-              </a>
-              <a class="col btn streaming-btn" type="button"
-                href="https://www.microsoft.com/en-us/p/the-prank/8d6kgwxws6dq?activetab=pivot:overviewtab"
-                target="_blank" rel="noopener">
-                <img class="streaming-icon" src="./assets/stream-btns/ms-mini.png" alt="Microsoft Store" />
-              </a>
-              <a class="col btn streaming-btn" type="button"
-                href="https://www.vudu.com/content/browse/details/The-Prank/3194611?cmp=OrganicSearch~Vudu~GoogleWatch"
-                target="_blank" rel="noopener">
-                <img class="streaming-icon" src="./assets/stream-btns/vudu-mini.png" alt="Vudu" />
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <!--* SYNOPSIS -->
-      <section id="synopsis" class="container synopsis-section section-box">
-        <!-- <div class="container"> -->
-        <div class="row">
-          <div class="col-10 col-md-6 img-fluid synopsis-poster" alt="The Prank - movie poster">
-            <img class="img-fluid" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
-          </div>
-
-
-          <div class="col-md-6 synopsis-text-box p-4">
-            <div class="row">
-              <p class="col-12">
-                In their seemingly ordinary senior year at West Greenview High, the unexpected unfolds when overachiever
-                Ben
-                and his carefree bestie Tanner decide to exact revenge on their strict physics teacher, Mrs. Wheeler, by
-                trying to ruin her life by framing her for the murder of a missing student on social media.
-              </p>
-            </div>
-
-            <p class="row">
-              <span class="col synop-left">Director</span>
-              <span class="col text-end">
-                <a class="synopsis-anchor"
-                  href="https://www.imdb.com/name/nm2043336/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_Maureen%2520Bharoocha"
-                  target="_blank" rel="noopener">Maureen Bharoocha</a>
-              </span>
-              <span class="clearfix"></span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Producer</span>
-              <span class="col text-end">
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0938145/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Steven J.
-                  Wolfe</a>
-              </span>
-              <span class="clearfix"></span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Executive Producers</span>
-              <span class="col text-end">
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm4981220/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Michael Y.
-                  Chow</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0726572/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Glenn
-                  Rigberg</a>
-              </span>
-              <span class="clearfix"></span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Writers</span>
-              <span class="col text-end">
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm2033646/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Rebecca
-                  Flinn-White</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm1907229/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Zak
-                  White</a>
-              </span>
-              <span class="clearfix"></span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Starring</span>
-              <span class="col text-end">
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0001549/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Rita
-                  Moreno</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm5318469/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Connor
-                  Kalopsis</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm5021372/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Ramona
-                  Young</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0202966/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Keith
-                  David</a>,
-                <a class="synopsis-anchor"
-                  href="https://www.imdb.com/name/nm0281212/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_Kate%2520Flannery"
-                  target="_blank" rel="noopener">Kate Flannery</a>,
-                <a class="synopsis-anchor"
-                  href="https://www.imdb.com/name/nm0001694/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_Meredith%2520Salenger"
-                  target="_blank" rel="noopener">Meredith Salenger</a>,
-                <a class="synopsis-anchor"
-                  href="https://www.imdb.com/name/nm0453996/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_Jonathan%2520Kimmel"
-                  target="_blank" rel="noopener">Jonathan Kimmel</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm6400600/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Nathan
-                  Janak</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm4242016/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Talia
-                  Jackson</a>,
-                <a class="synopsis-anchor"
-                  href="https://www.imdb.com/name/nm5083959/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_Romel%2520DE%2520SILVA"
-                  target="_blank" rel="noopener">Romel De Silva</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm4161838/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Betsy
-                  Sodaro</a>,
-                <a class="synopsis-anchor" href="https://www.imdb.com/name/nm2613100/?ref_=fn_al_nm_1" target="_blank"
-                  rel="noopener">Ahmed
-                  Bharoocha</a>
-              </span>
-              <span class="clearfix"></span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Genres</span>
-              <span class="col text-end">
-                Dark Comedy, Thriller
-              </span>
-              <span class="clearfix"></span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Runtime</span>
-              <span class="col text-end">
-                95 minutes
-              </span>
-            </p>
-            <p class="row">
-              <span class="col synop-left">Rating</span>
-              <span class="col text-end">
-                <img class="img-fluid synopsis-rating-bug" src="./assets/icons/rating.png"
-                  alt="Rated R for some language.">
-              </span>
-            </p>
-          </div>
-        </div>
-        <!-- </div> -->
-
-      </section>
-
-      <!--* INFO -->
-      <section id="info" class="container info-section text-center section-box">
-        <h3 class="row">
-          <img class="col-9 img-fluid mx-auto" src="./assets/images/tt-sm.png" alt="The Prank - main titling" />
-        </h3>
-        <div class="row p-5 m-5">
-          <h6 class="col-12">
-            FOR MORE INFORMATION, EMAIL US AT <a class="col info-link"
-              href="mailto:theprankmovie@gmail.com?subject=The%20Prank%20-%20More%20Info">theprankmovie@gmail.com</a>
-          </h6>
-        </div>
-        <div class="row my-3 justify-content-center quick-buttons">
-          <a class="col-auto rainbow-button info-home-btn" href="/#home">top</a>
-        </div>
-      </section>
-    </main>
-
-    <!--* FOOTER -->
-    <footer>
-      <div class="footer-rating-div">
-        <img class="rating-bug img-fluid" src="./assets/icons/rating.png" alt="Rated R for some language." />
+    <!--* STREAMING -->
+    <section id="streaming" class="container mx-auto section-box">
+      <div class="row m-3">
+        <h2 class="streaming-h2 col text-center">STREAMING NOW ON</h2>
       </div>
-      <div class="main-footer">
+      <div class="stream-bg row justify-content-center">
+        <img class="col-10 col-md-4 img-fluid" src="./assets/images/prank-streaming-kids.jpg" alt="Connor Kalopsis" />
+        <div class="col-md-6 streaming-icons-box align-self-center pt-5 pt-md-0">
+          <div class="row">
+            <a class="col btn streaming-btn" type="button"
+              href="https://www.amazon.com/Prank-Connor-Kalopsis/dp/B0CVKHH8XN?dib=eyJ2IjoiMSJ9.POqrHYHIX5_YSn1ouyrKtavbxAyKYP3YwxCTBhxiDhxZvM7UPtywp5iRHzxRtjKuiT4Z6XwVhfotemTlE7NBzihdTleIaxKY8OCmEuk7rkHTqvIMOz79TbP-r66Al1CR2tTrt8RiqPZmpcLdCQCEdlKF_DVB3J5q2OToV0g36rIaMUK4XDhV7Zyx8iY6BIgZs9uYyR08Pw8rdFrfZHMEOb2sr8FKsMmOV2FbXg9aZCE._qIhhPUs-5-3EEvb0-0YdDic5tuAT6BdKAO0yNgK0bw&dib_tag=se&s=instant-video"
+              target="_blank" rel="noopener">
+              <img class="streaming-icon" src="./assets/stream-btns/prime-mini.png" alt="Prime Video" />
+            </a>
+            <a class="col btn streaming-btn" type="button"
+              href="https://tv.apple.com/us/movie/the-prank/umc.cmc.j7zkk1m7mwxnd80zyn65q22i?action=play"
+              target="_blank" rel="noopener">
+              <img class="streaming-icon" src="./assets/stream-btns/appletv-mini.png" alt="AppleTV" />
+            </a>
+            <a class="col btn streaming-btn" type="button" href="https://www.youtube.com/watch?v=zlLT_Xml00E"
+              target="_blank" rel="noopener">
+              <img class="streaming-icon" src="./assets/stream-btns/youtube-mini.png" alt="youTube" />
+            </a>
+          </div>
+          <div class="row">
+            <a class="col btn streaming-btn" type="button"
+              href="https://play.google.com/store/movies/details?id=avYzI9NigaE.P" target="_blank" rel="noopener">
+              <img class="streaming-icon" src="./assets/stream-btns/googleplay-mini.png" alt="Google Play" />
+            </a>
+            <a class="col btn streaming-btn" type="button"
+              href="https://www.microsoft.com/en-us/p/the-prank/8d6kgwxws6dq?activetab=pivot:overviewtab"
+              target="_blank" rel="noopener">
+              <img class="streaming-icon" src="./assets/stream-btns/ms-mini.png" alt="Microsoft Store" />
+            </a>
+            <a class="col btn streaming-btn" type="button"
+              href="https://www.vudu.com/content/browse/details/The-Prank/3194611?cmp=OrganicSearch~Vudu~GoogleWatch"
+              target="_blank" rel="noopener">
+              <img class="streaming-icon" src="./assets/stream-btns/vudu-mini.png" alt="Vudu" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--* SYNOPSIS -->
+    <section id="synopsis" class="container synopsis-section section-box">
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-10 col-md-6 img-fluid synopsis-poster" alt="The Prank - movie poster">
+          <img class="img-fluid" src="./assets/images/synopsis-poster.jpg" alt="The Prank - movie poster" />
+        </div>
+
+
+        <div class="col-md-6 synopsis-text-box p-4">
+          <div class="row">
+            <p class="col-12">
+              In their seemingly ordinary senior year at West Greenview High, the unexpected unfolds when overachiever
+              Ben
+              and his carefree bestie Tanner decide to exact revenge on their strict physics teacher, Mrs. Wheeler, by
+              trying to ruin her life by framing her for the murder of a missing student on social media.
+            </p>
+          </div>
+
+          <p class="row">
+            <span class="col synop-left">Director</span>
+            <span class="col text-end">
+              <a class="synopsis-anchor"
+                href="https://www.imdb.com/name/nm2043336/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_Maureen%2520Bharoocha"
+                target="_blank" rel="noopener">Maureen Bharoocha</a>
+            </span>
+            <span class="clearfix"></span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Producer</span>
+            <span class="col text-end">
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0938145/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Steven J.
+                Wolfe</a>
+            </span>
+            <span class="clearfix"></span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Executive Producers</span>
+            <span class="col text-end">
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm4981220/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Michael Y.
+                Chow</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0726572/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Glenn
+                Rigberg</a>
+            </span>
+            <span class="clearfix"></span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Writers</span>
+            <span class="col text-end">
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm2033646/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Rebecca
+                Flinn-White</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm1907229/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Zak
+                White</a>
+            </span>
+            <span class="clearfix"></span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Starring</span>
+            <span class="col text-end">
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0001549/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Rita
+                Moreno</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm5318469/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Connor
+                Kalopsis</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm5021372/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Ramona
+                Young</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm0202966/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Keith
+                David</a>,
+              <a class="synopsis-anchor"
+                href="https://www.imdb.com/name/nm0281212/?ref_=nv_sr_srsg_0_tt_1_nm_7_q_Kate%2520Flannery"
+                target="_blank" rel="noopener">Kate Flannery</a>,
+              <a class="synopsis-anchor"
+                href="https://www.imdb.com/name/nm0001694/?ref_=nv_sr_srsg_0_tt_0_nm_1_q_Meredith%2520Salenger"
+                target="_blank" rel="noopener">Meredith Salenger</a>,
+              <a class="synopsis-anchor"
+                href="https://www.imdb.com/name/nm0453996/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_Jonathan%2520Kimmel"
+                target="_blank" rel="noopener">Jonathan Kimmel</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm6400600/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Nathan
+                Janak</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm4242016/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Talia
+                Jackson</a>,
+              <a class="synopsis-anchor"
+                href="https://www.imdb.com/name/nm5083959/?ref_=nv_sr_srsg_0_tt_0_nm_8_q_Romel%2520DE%2520SILVA"
+                target="_blank" rel="noopener">Romel De Silva</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm4161838/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Betsy
+                Sodaro</a>,
+              <a class="synopsis-anchor" href="https://www.imdb.com/name/nm2613100/?ref_=fn_al_nm_1" target="_blank"
+                rel="noopener">Ahmed
+                Bharoocha</a>
+            </span>
+            <span class="clearfix"></span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Genres</span>
+            <span class="col text-end">
+              Dark Comedy, Thriller
+            </span>
+            <span class="clearfix"></span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Runtime</span>
+            <span class="col text-end">
+              95 minutes
+            </span>
+          </p>
+          <p class="row">
+            <span class="col synop-left">Rating</span>
+            <span class="col text-end">
+              <img class="img-fluid synopsis-rating-bug" src="./assets/icons/rating.png"
+                alt="Rated R for some language.">
+            </span>
+          </p>
+        </div>
+      </div>
+      <!-- </div> -->
+
+    </section>
+
+    <!--* INFO -->
+    <section id="info" class="container info-section text-center section-box">
+      <h3 class="row">
+        <img class="col-9 img-fluid mx-auto" src="./assets/images/tt-sm.png" alt="The Prank - main titling" />
+      </h3>
+      <div class="row p-5 m-5">
+        <h6 class="col-12">
+          FOR MORE INFORMATION, EMAIL US AT <a class="col info-link"
+            href="mailto:theprankmovie@gmail.com?subject=The%20Prank%20-%20More%20Info">theprankmovie@gmail.com</a>
+        </h6>
+      </div>
+      <div class="row my-3 justify-content-center quick-buttons">
+        <a class="col-auto rainbow-button info-home-btn" href="/#home">top</a>
+      </div>
+    </section>
+  </main>
+
+  <!--* FOOTER -->
+  <footer>
+    <div class="footer-rating-div">
+      <img class="rating-bug img-fluid" src="./assets/icons/rating.png" alt="Rated R for some language." />
+    </div>
+    <div class="main-footer">
+      <div class="footer-links">
+        <a href="https://dx35vtwkllhj9.cloudfront.net/iconicreleasing/images/PrivacyPolicy_ICONIC_EVENTS_RELEASING_LLC.pdf"
+          target="_blank" rel="noopener">Privacy Policy</a>
+        <button class="btn credits-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+          aria-controls="offcanvasBottom">CREDITS<span class="credits-btn-icon"></span></button>
+
+      </div>
+      <p class="copyright">Copyright © (XRM MEDIA, L.L.C.) "All Rights Reserved"</p>
+    </div>
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small credits-container">
+        <div class="bugs">
+          <img class="billing-block img-fluid" src="./assets/icons/billing-block.png" alt="billing block" />
+        </div>
         <div class="footer-links">
           <a href="https://dx35vtwkllhj9.cloudfront.net/iconicreleasing/images/PrivacyPolicy_ICONIC_EVENTS_RELEASING_LLC.pdf"
             target="_blank" rel="noopener">Privacy Policy</a>
-          <button class="btn credits-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
-            aria-controls="offcanvasBottom">CREDITS<span class="credits-btn-icon"></span></button>
-
         </div>
         <p class="copyright">Copyright © (XRM MEDIA, L.L.C.) "All Rights Reserved"</p>
       </div>
-      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-        <div class="offcanvas-header">
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body small credits-container">
-          <div class="bugs">
-            <img class="billing-block img-fluid" src="./assets/icons/billing-block.png" alt="billing block" />
-          </div>
-          <div class="footer-links">
-            <a href="https://dx35vtwkllhj9.cloudfront.net/iconicreleasing/images/PrivacyPolicy_ICONIC_EVENTS_RELEASING_LLC.pdf"
-              target="_blank" rel="noopener">Privacy Policy</a>
-          </div>
-          <p class="copyright">Copyright © (XRM MEDIA, L.L.C.) "All Rights Reserved"</p>
-        </div>
-      </div>
-    </footer>
+    </div>
+  </footer>
 
   <script src="https://kit.fontawesome.com/2d308f669c.js" crossorigin="anonymous"></script>
   <script type="module" src="./js/main.js"></script>
