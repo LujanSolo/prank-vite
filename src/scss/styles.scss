@@ -29,13 +29,16 @@ body {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 100%; /* Ensures the height of the container is 100% of the viewport height */
+  height: 100%;
+  /* Ensures the height of the container is 100% of the viewport height */
   background-image: url(/assets/images/bg.jpg);
   background-color: #000000;
   background-repeat: no-repeat;
-  background-size: contain; /* Ensures the image covers the container while maintaining aspect ratio */
+  background-size: contain;
+  /* Ensures the image covers the container while maintaining aspect ratio */
   // background-position: left 25%; /* Adjusts the position of the background image */
-  background-attachment: scroll; /* Keeps the background fixed while scrolling */
+  background-attachment: scroll;
+  /* Keeps the background fixed while scrolling */
   top: 0;
   left: -7vw;
   right: 0;
@@ -287,9 +290,7 @@ q {
   // width: 100%;
 }
 
-.title-block {
-
-}
+.title-block {}
 
 .variety-quote {
   font-family: 'IM Fell DW Pica', serif;
@@ -564,7 +565,7 @@ footer .rating-bug {
     // top: 0;
   }
 
-  
+
 
   .variety-quote {
     font-size: 14px !important;
